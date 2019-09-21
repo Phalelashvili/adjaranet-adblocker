@@ -23,6 +23,6 @@ chrome.storage.local.get(["enabled"], function(items) {
 	}
 	
 	checkElement('#player').then(() => {
-		document.querySelector('#themovieDiv').remove(); // ხო ძაან მარტივია :D 
+		document.querySelector('#themovieDiv').remove(); // ხო, ძაან მარტივია :D 
 	});
 });
