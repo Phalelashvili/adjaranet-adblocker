@@ -1,5 +1,5 @@
 ﻿{
-    "version": "1.1.0",
+    "version": "1.2",
     "name": "Adjaranet Adblocker",
     "description": "Adblocker for net.adjara.com",
     "manifest_version": 2,
@@ -10,7 +10,8 @@
         "webRequestBlocking",
         "webRequest",
         "activeTab",
-        "tabs"
+        "tabs",
+        "storage"
     ],
 
     "background" : {
@@ -31,7 +32,5 @@
         "16": "icon.png",
         "48": "icon.png",
         "128": "icon.png"
-    },
-
-    "options_page": "popup.html" 
+    }
 }
