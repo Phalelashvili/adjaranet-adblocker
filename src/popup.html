@@ -16,9 +16,9 @@
 		html {
 			height: 100%;
 			min-height: 100%;
-			width: 350px;
+			width: 500px;
 			height: 350px;
-			
+
 		}
 
 		body {
@@ -39,19 +39,30 @@
 			font-size: 42px;
 			font-weight: 300;
 		}
-		
+
 		a {
+			text-decoration: none;
+			font-size: 15px;
+		}
+
+		.red {
 			color: red;
 			text-decoration: none;
 			font-size: 15px;
 		}
 	</style>
 	<body>
-		<h1 id="adsBlocked">0</h1>
-		<nobr><h2>დაბლოკილი რეკლამა</h2></nobr>
-		<br><br>
-		<nobr><h3>Adjaranet Adblocker v1.2</h3></nobr>
-		<a href="https://github.com/Phalelashvili/adjaranet-adblocker" target="_blank">Github</a></h3>
+		<h1>Adjaranet Adblocker</h1>
+		<br/>
+		<h2>Last Update: </h2>
+		<h2 id="lastUpdate"></h2>
+		<br/>
+		<h3><a href="https://github.com/phalelashvili/adjaranet-adblocker" target="_blank">Source Code</a></h3>
+		<br/>
+		<h4>Report unblocked ad on
+			<a class="red" href="https://chrome.google.com/webstore/detail/adjaranet-adblocker/oalhgihgmiieopckdajoefdekmiknhgg" target="_blank">Chrome Web Store</a></h4>
+			or <br/>
+			<a class="red" href="https://github.com/phalelashvili/adjaranet-adblocker/issues" target="_blank">GitHub</a>
 	</body>
 </html>
 <script src="popup.js"></script>
