@@ -18,7 +18,7 @@ Download Project
 Open Chrome and go to chrome://extensions/
 Turn on "Developer Mode"
 Click on "Load unpacked" button
-Open the file where you downloded the project 
+Open the the download file of the project 
 Select the folder named "src"
 ```
 
